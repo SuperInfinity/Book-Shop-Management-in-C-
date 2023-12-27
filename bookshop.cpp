@@ -53,7 +53,7 @@ void bookshop::add_book()
 
 	// Open file in append or
 	// output mode
-	file.open("/home/tanmay/Documents/CODES/Cpp1/bookinfo/bookinfo.txt",ios::out | ios::app);
+	file.open("",ios::out | ios::app);
 	file << " " << b_id << " " << b_name << " " << a_name << " " << no_copy << " " << b_price << "\n";
 	file.close();
 }
